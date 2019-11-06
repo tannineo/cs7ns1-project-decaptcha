@@ -25,3 +25,13 @@ two ways to generate the spectrograms:
 - `sox`: see [sox official website](http://sox.sourceforge.net/)
   - the command: `sox ${i} -n spectrogram -m -r -x 500 -y 500 -a -o ${filename}.png`
 - `lobrosa`: see [librosa.feature.melspectrogram](https://librosa.github.io/librosa/generated/librosa.feature.melspectrogram.html)
+
+### the mp3 files
+
+- google: find the `get_chars_trans.py`
+- yandex: TODO
+- aws: manually download from the AWS Polly webpage
+- ibm: manually download using `curl` according to the tutorial
+- bing: TODO
+
+mp3 files used in this project can be found in [here](https://drive.google.com/drive/folders/1hnfJXI6pNjlAbO6sZW-nbQ5q63hs6Wws?usp=sharing)
